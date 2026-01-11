@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> table{margin: 50px auto;}</style>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+                <tr>
+                <th>First Name</th>
+                <td><input type="text" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Re-Enter Password</th>
+                <td><input type="password" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th rowspan="2" id="Gender">Gender</th>
+                <td><input type="radio" name="Gender" id="Gender">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Gender" id="Gender">Female</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td><input type="number" min="0" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="tel" inputmode="tel" pattern="[0-9]+" min="0" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea  autocomplete="street-address" name="Address" id="Address" rows="10" cols="20" style="width:98%;"></textarea></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><input type="text" style="width:98%;"></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td><select name="Country" id="Country" style="width:100%;">
+                    <option value="#" selected disabled>Choose your country</option>
+                    <option value="#">United States</option>
+                    <option value="#">China</option>
+                    <option value="#">France</option>
+                    <option value="#">United Kingdom</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Japan</option>
+                    <option value="#">Germany</option>
+                    <option value="#">India</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Russia</option>
+                    <option value="#">Portugal</option>
+                    <option value="#">Greece</option>
+                    <option value="#">Turkiye</option>
+                    <option value="#">Switzerland</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Language Known</th>
+                <td><input type="checkbox">English
+                <input type="checkbox">Russian
+                <input type="checkbox">Chinese
+                <input type="checkbox">French</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2"><input type="checkbox">Hereby I declare all the given details are true</td>
+            <tr>
+                <td colspan="2" style="text-align: right;">Login in to <a href="https://www.google.com/" target="_blank">Google</a> website</td>
+            </tr>
+        </tfoot>
+    </table>
+    <input type="submit" value="Register" style="display:block;margin: auto;">
+</body>
+</html>
