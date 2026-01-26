@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 800px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.card {
+    height: 200px;
+    width: 315px;
+    border-radius: 10px;
+    color: white;
+}
+#card1 {
+    background-color: green;
+}
+#card2 {
+    background-color: black;
+}
+#card3 {
+    background-color: blue;
+}
+#card4 {
+    background-color: purple;
+}
+.username {
+    font-size:  20px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.chip {
+    padding-top: 35px;
+    padding-left: 10px;
+    width: 50px;
+}
+.visa {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+.cardnumber {
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.mk {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+}
