@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    width: 400px;
+    height: 325px;
+}
+.list {
+    list-style-type: none;
+    background-color: rgb(235, 235, 235);
+    padding: 25px;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.product-1 {
+    border: 1px solid;
+    padding: 20px;
+    margin-right: 75px;
+}
+.product-2 {
+    border: 1px solid;
+    padding: 20px;
+}
+.buy {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+.price {
+    color: rgb(177, 39, 4);
+}
