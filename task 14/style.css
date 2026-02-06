@@ -1,0 +1,68 @@
+.text{
+    background-color: white;
+    /* padding: 20px; */
+    transition: 0.4s;
+}
+.engineer-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3d424a;
+}
+.engineer-job {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #999;
+    transition: 0.4s;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 30px;
+    gap: 8px;
+    bottom: 120px;
+}
+.icon-body{
+    color: white;
+    background-color:#3d424a ;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.icon{
+    font-size: 20px;
+}
+.icon-body:hover{
+    background-color: #ffa62b;
+}
+.staff {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.staff:hover>.text{
+    background-color: #ffa62b;
+    transition: 0.4s;
+}
+.staff:hover .engineer-job{
+    color: white;
+}
+.staff:hover .icon-body{
+    opacity: 1;
+    visibility: visible;
+}
+/* .first-img{
+    height: 186px;
+    width: 300px;
+} */
+.margin{
+    margin-top: 120px;
+}
