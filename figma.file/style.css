@@ -1,0 +1,126 @@
+.header{
+    width: 1303px;
+    height: 96px;
+    margin-left: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* padding: 0 56px; */
+}
+.logo{
+    width: 185px;
+    height: 41px;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icons{
+    width: 28px;
+    height: 27px;
+    transition: 0.3s;
+} 
+.icons:hover{
+    color: #B88E2F;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.li{
+    width: 49px;
+    height: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    transition: 0.8s;
+}
+.ul li:hover{
+    color: #B88E2F;
+}
+.main1{
+    width: 1360px;
+    height: 562px;
+    top: 75.03px;
+    position: relative;
+}
+.main1-img{
+    width: 652.67578125;
+    height: 804.3935546875;
+    top: -133.1px;
+    left: 761.29px;
+}
+.lorem{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+}
+
+.rectangle77{
+    position: absolute;
+    background-color: #FFF3E3;
+    right: 80px;
+    top: 305px;
+    padding: 40px;
+    width: 652px;
+    height: 427px;
+    left: 761px;
+}
+.button{
+    position: absolute;
+    width: 222px;
+    height: 74px;
+    background-color: #B88E2F;
+    color: white;
+    cursor: pointer;
+    padding: 25px 72px;
+    top: 354px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #725c2a;
+    /* transition: 1s; */
+}
+.main2{
+    width: 1198px;
+    height: 808px;
+}
+.box1{
+    margin-top: 150px;
+    width: 559px;
+    height: 171px;
+    margin-left: 370px;
+}
+.lorem2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%; 
+    text-align: center;
+    margin-bottom: 115px;
+}
+.btr{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+}
+.btr1{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btr1-childs{
+    transition: 0.5s;
+}
+.btr1-childs:hover{
+    opacity: 0.6;
+}
