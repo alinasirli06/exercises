@@ -1,0 +1,55 @@
+body{
+    background-color: #1a9ac9;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.h1{
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.box{
+    width: 780px;
+    height: 450px;
+}
+.rows{
+    width: 100%;
+    display: flex;
+}
+.image{
+    width: 260px;
+    height: 150px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    justify-content: center;
+    border: 1px solid white;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.image:hover{
+    scale: 1.01;
+}
+.image1-1{
+    animation-name: image1-1;
+}
+.image1-2{
+    animation-name: image1-1;
+    animation-direction: reverse;
+}
+@keyframes image1-1 {
+    0%{transform: translateX(0px) translateY(0px);}
+    100%{transform: translateX(644px) translateY(368px);}
+}
+@keyframes image1-2 {
+    0%{transform: translateX(260px) translateY(150px);}
+    100%{transform: translateX(0px) translateY(0px);}
+    }

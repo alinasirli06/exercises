@@ -23,7 +23,6 @@
     scale: 1;
     width: 100%;
     height: 100%;
-    position: relative;
 }
 .img:hover{
     transform: translatey(-300px);
@@ -38,6 +37,7 @@
     scale: 1.1;
 }
 .box-animation1,.box-animation2{
+    top: 0;  
     position: absolute;
     width: 25px;
     height: 25px;

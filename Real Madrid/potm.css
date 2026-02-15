@@ -1,0 +1,99 @@
+/* main{
+    display: flex;
+} */
+.mbappe{
+    width: 600px;
+    margin: 50px auto;
+    transition: 1s;
+    animation-name: potm;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+/* .mbappe:hover{
+    scale: 1.2;
+} */
+@keyframes potm{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+.potm-text1,.potm-text2{
+    position: absolute;
+    top: 50%;
+    color: blueviolet;
+    text-align: center;
+    /* left: 50%; */
+    opacity: 0;
+    font-weight: bold;
+    transition: opacity .5s;
+}
+.potm-text1{
+    line-height: 40px;
+    width: 600px;
+    font-size: 28px;
+    animation-name: potm-text1;
+    animation-duration:3.1s;
+    transform: translate(-70%, -50%);
+   margin-left: 200px;
+}
+.potm-text2{
+    /* left: 50%; */
+    width: 500px;
+    right: 400px;
+    font-size: 18px;
+    text-align: center;
+    animation-name: potm-text2;
+    transform: translateY(-50%);
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards
+}
+@keyframes potm-text1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translate(-50%, -50%);    
+    }
+}
+@keyframes potm-text2{
+    from{
+        opacity: 0;
+        right: 300px;
+    }
+    to{
+        opacity: 1;
+        right: 230px;
+        /* transform: translateX(70px); */
+    }
+}
+.feb-potm{
+    font-size: 27px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0;
+    animation-name: feb-potm;
+    transition: .7s;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+.feb-potm:hover{
+    color: blueviolet;
+}
+@keyframes feb-potm{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
