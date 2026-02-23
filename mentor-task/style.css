@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+}
+.container1{
+     max-width: 1140px;
+    width: 100%; 
+    position: relative;
+}
+
+.row1{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+}
+.box11{
+    display: flex;
+}
+.product-name{
+    font-weight: 700;
+}
+.product-price{
+    color: darkgoldenrod;
+}
