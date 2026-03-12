@@ -57,3 +57,26 @@
 // let b = 98765;
 // let num = (a*b).toString();
 // console.log(num[5]); 
+
+// 14
+// let a = prompt();
+// console.log(Number(a[0])+Number(a[1])+Number(a[2])+Number(a[3]));
+
+// 16
+// let price = prompt();
+// let [manat,qepik] = price.split(".");
+// console.log(`${manat}manat ${qepik} qepik`);
+
+// 17
+// let salary = prompt();
+// console.log(salary*0.87);
+
+// 18
+// let fullName = prompt('Soyad,Ad və Ata adını müvafiq şəkildə daxil edin');
+// let parts = fullName.split(" ");
+// let soyad = parts [0][0];
+// let ad = parts [1][0];
+// let ataAdi = parts [2][0];
+// console.log(`${soyad} ${ad} ${ataAdi}`);
+
+// 19

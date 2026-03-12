@@ -6,7 +6,7 @@
 // console.log(myName);
 
 // 4
-// const userName = prompt ("Adınızı daxil edin:");
-// const surname = prompt ("Soyadınızı daxil edin:");
-// console.log("Ad:",userName);
-// console.log("Soyad:",surname);  
+const userName = prompt ("Adınızı daxil edin:");
+const surname = prompt ("Soyadınızı daxil edin:");
+console.log("Ad:",userName);
+console.log("Soyad:",surname);  
