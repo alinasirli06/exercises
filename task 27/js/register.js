@@ -33,9 +33,7 @@ form.addEventListener("submit",(e)=>{
     else{
         alert("Enter the datas completely")
     }
-    
 })
-
 eye.addEventListener("click",()=>{
     eye.style.display = "none"
     eyeSl.style.display = "inline"

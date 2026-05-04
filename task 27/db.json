@@ -1,11 +1,33 @@
 {
   "users": [
     {
+      "id": "Z3KopeDVZ70",
       "name": "Ali",
       "email": "nesirovelihuseyn06@gmail.com",
-      "password": "salam1234",
-      "id": "Z3KopeDVZ70"
+      "password": "salam1234"
     }
+  ],
+  "products": [
+    { "id": 1, "name": "Chelsea Home Jersey 24/25", "size": "S", "price": "85$","image":"https://soccerzoneusa.com/cdn/shop/files/palmer_dd71029a-3aee-47ea-9af3-f70b9d53152e_2000x.webp?v=1753111366" },
+    { "id": 2, "name": "Arsenal Away Kit", "size": "M", "price": "90$","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMNMUdMvG7Z3at6fVNUDWMq5-SHQlHRndEZA&s" },
+    { "id": 3, "name": "Real Madrid Home Edition", "size": "L", "price": "95$","image":"https://zealevince.in/wp-content/uploads/2022/06/Real-Madrid-Home-Jersey-22-23-Season-Player-Edition-scaled-scaled.jpg" },
+    { "id": 4, "name": "Barcelona Third Kit", "size": "XL", "price": "88$","image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFZ2FZ5Uuy9YCN1dg9RLegzC8xsLCpS7u1ot-DPd3ZbJXTBpnVm81XAtR9es8oULSPOzos367ZAUooJz-Nnzighszy79C5YnG4J4WOC_GXp6XST8Gry9WOmGwQgedn2pZ-39CsQWKnEFajUfHF-rzAoaoIJPUfnXVunEweGs_M4XLInJTHaj9QjfaygVky/s1600/barca-25-26-third-kit%20%289%29.jpg" },
+    { "id": 5, "name": "Manchester City Home", "size": "M", "price": "92$","image":"https://thumblr.uniid.it/product/400408/465eb64e644a.jpg?width=3840&format=webp&q=75" },
+    { "id": 6, "name": "Liverpool Retro 1990", "size": "L", "price": "75$","image":"https://indiansoccermart.in/cdn/shop/files/2c5ac2ea80c1c67b0d83c6646757b039.png-z-621_621_f-webp_grande.webp?v=1702467756" },
+    { "id": 7, "name": "Bayern Munich Home", "size": "S", "price": "89$","image":"https://www.soccerbox.com/media/catalog/product/cache/9d14d56c606ce6e31fa44a7bf9aa05c5/f/c/fc-bayern-home-shirt-24.jpg" },
+    { "id": 8, "name": "AC Milan Classic", "size": "M", "price": "80$","image":"https://www.3retro.com/siteimg/prodhires/688-189.jpg" },
+    { "id": 9, "name": "Inter Milan Home", "size": "L", "price": "85$","image":"https://italiansportswearcollection.com/cdn/shop/files/InterMilanNikeHome24_25_5_1800x1800.jpg?v=1723676267" },
+    { "id": 10, "name": "PSG Jordan Edition", "size": "XL", "price": "110$","image":"https://statics.whentocop.fr/drops/18851/picture/000000_PSG-x-Jordan-Authentic-Dri-FIT-ADV-Jersey_MATCH-NIGHT-EDITION_IB3142-011_img0-1000x1000.webp" },
+    { "id": 11, "name": "Juventus Home Kit", "size": "M", "price": "87$","image":"https://images.footballfanatics.com/juventus/juventus-adidas-home-shirt-2025-26_ss5_p-202794618+pv-2+u-5ozhqwl1nkamr0i1hxae+v-acju8xzo5s0e2zrym895.jpg?_hv=2&w=1018" },
+    { "id": 12, "name": "Dortmund Special Edition", "size": "S", "price": "82$","image":"https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/771334/02/fnd/SEA/fmt/png/Borussia-Dortmund-Special-Edition-Jersey-Men" },
+    { "id": 13, "name": "Atletico Madrid Home", "size": "L", "price": "84$","image":"https://shop.atleticodemadrid.com/on/demandware.static/-/Sites-atm-master-catalog/default/dw10a33bfa/New%20Folder/HJ4587-615_8.jpg" },
+    { "id": 14, "name": "Ajax Away Jersey", "size": "M", "price": "78$","image":"https://www.ajax.nl/media/mmzebqwc/ajax_away_2526.webp?format=webp" },
+    { "id": 15, "name": "Porto Home Kit", "size": "L", "price": "70$","image":"https://cdn.footballkitarchive.com/2025/05/28/IvOiwWi5WvN8d26.jpg" },
+    { "id": 16, "name": "Benfica Home Kit", "size": "XL", "price": "72$","image":"https://media.slbenfica.pt/-/media/benficadp/shop/produtos-2020-2021/equipamentos/25-26/personalizador/principal/main_male_front.jpg?v=638844473950000000" },
+    { "id": 17, "name": "Galatasaray Home 24/25", "size": "M", "price": "65$","image":"https://cdn.footballkitarchive.com/2025/08/17/st5LPFR5yTIYZRn.jpg" },
+    { "id": 18, "name": "Fenerbahce Home Kit", "size": "L", "price": "65$","image":"https://cdn.footballkitarchive.com/2025/08/25/vSVriwENpYkCphP.jpg" },
+    { "id": 19, "name": "Besiktas Black Eagle Kit", "size": "S", "price": "65$","image":"https://cdn.webshopapp.com/shops/216137/files/461239819/image.jpg" },
+    { "id": 20, "name": "Napoli Maradona Tribute", "size": "M", "price": "99$","image":"https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6191/17687/napoli-camiseta-homenaje-diego-armando-maradona-blue-azul-1__63482.1654198998.jpg?c=2" }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -28,7 +28,6 @@
     "totalist": "^3.0.1",
     "type-fest": "^5.5.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
